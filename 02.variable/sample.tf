@@ -48,5 +48,5 @@ output "input2" {
 ##Var from SHell Env
 variable "input_shell" {}
 output "input_shell" {
-    value = var.input_shell
+  value = var.input_shell
 }
