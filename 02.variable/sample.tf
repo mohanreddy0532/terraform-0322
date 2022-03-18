@@ -17,6 +17,9 @@ variable "demo2" {
   default = true
   type = bool
 }
+output "Demo2" {
+  value = var.demo
+}
 
 variable "Demo4" {
   description = "Map variable"
@@ -25,4 +28,7 @@ variable "Demo4" {
     timing = "6AM"
     is_started = true
   }
+}
+output "Demo4" {
+  value = var.demo
 }
