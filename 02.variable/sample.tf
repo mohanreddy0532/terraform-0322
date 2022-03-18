@@ -32,3 +32,15 @@ variable "Demo4" {
 output "Demo4" {
   value = var.demo
 }
+
+###Varibale from TFVars
+variable "input1" {}
+variable "input2" {}
+
+output "input1" {
+  value = var.input1
+}
+
+output "input2" {
+  value = var.input2
+}
