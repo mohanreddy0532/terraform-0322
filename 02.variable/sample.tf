@@ -17,3 +17,12 @@ variable "demo2" {
   default = true
   type = bool
 }
+
+variable "Demo4" {
+  description = "Map variable"
+  default = {
+    course = "DevOps"
+    timing = "6AM"
+    is_started = true
+  }
+}
